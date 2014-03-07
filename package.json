@@ -1,0 +1,27 @@
+{
+	"name": "configjson",
+	"version": "0.0.2",
+	"description": "Wrapper to configuration in CJSON",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "DEBUG= ./node_modules/.bin/mocha -t 5000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:alejonext/configjson.git"
+	},
+	"dependencies": {
+		"cjson": ">=0.3.0"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	},
+	"keywords": [
+		"configuration",
+		"config",
+		"configure",
+		"cjson"
+	],
+	"author": "Alejo Next",
+	"license": "Apache License V2.0"
+}
