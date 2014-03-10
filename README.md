@@ -6,8 +6,8 @@ Is a wrapper for configuration with CJSON.
 How to use it:
 
 ```js
-var CJSON = require('configjson');
-var myConfig = CJSON([
+var config = require('configjson');
+var myConfig = new config([
 	'file1.json',
 	'file2.json',
 ], {
@@ -30,8 +30,7 @@ myconfig.disabled(name);
 Make configurable
 
 ```js
-
-myconfig.configure("test", function(){
+myConfig.configure("test", function(){
 	// Only run in Test
 });
 
